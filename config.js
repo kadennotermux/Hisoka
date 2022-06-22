@@ -1,6 +1,6 @@
 /**
    * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
+   * Contact Me on wa.me/254732989905
    * Follow https://github.com/DikaArdnt
 */
 
@@ -18,30 +18,30 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6283167714830','6281382420312','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Hisoka Morrow'
-global.author = 'WhatsApp Bot'
-global.sessionName = 'hisoka'
+global.owner = ['254792893310','254732989905','254732989905']
+global.premium = ['254726235745']
+global.packname = 'Sketchy Stikaz '
+global.author = 'Ginger'
+global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: '✓ Success',
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Digunakan Hanya Untuk Group!',
-    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
-    bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
-    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+    admin: 'Only Admins can use that ,pole!',
+    botAdmin: '*Make Sure Bot is Admin* 🪛',
+    owner: '*Only Ginger Can use this feature* 😎',
+    group: '*😂😂Use Bot in Groups Only*',
+    private: '*Can be used in private chats only*',
+    bot: '🔱 *Sketchy bot here* 🔱',
+    wait: 'Chill Msee😊.',
+    endLimit: 'Your Limit Has reached Maximum come back tommorrow🥱⛔',
 }
 global.limitawal = {
     premium: "Infinity",
     free: 100
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
-global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
+global.visoka = { url: 'https://telegra.ph/file/a0c5f3eccbed496d2f174.mp4' }
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
