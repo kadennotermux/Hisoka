@@ -3,5 +3,19 @@
 	"description": "WhatsApp Bot Using Lib Baileys",
 	"repository": "https://github.com/DikaArdnt/Hisoka-Morou",
 	"logo": "https://node-js-sample.herokuapp.com/node.png",
+          "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+        },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
 	"keywords": ["multi-device"]
 }
